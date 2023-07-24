@@ -4,7 +4,7 @@
   "description": "landing page for natours",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/_main.scss CSS/style.css -w",
+    "watch:sass": "node-sass sass/_main.scss CSS/style.css",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     
